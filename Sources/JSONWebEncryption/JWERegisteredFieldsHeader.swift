@@ -113,7 +113,7 @@ extension JWERegisteredFieldsHeader {
         jwkSetURL: String? = nil,
         jwk: JWK? = nil,
         x509URL: String? = nil,
-        x509CertificateChain: String? = nil,
+        x509CertificateChain: [String]? = nil,
         x509CertificateSHA1Thumbprint: String? = nil,
         x509CertificateSHA256Thumbprint: String? = nil,
         type: String? = nil,
